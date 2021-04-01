@@ -1,2 +1,0 @@
-# Mandelbrot
-ASCII Mandelbrot codes
