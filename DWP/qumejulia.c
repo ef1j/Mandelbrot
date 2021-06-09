@@ -1,7 +1,7 @@
-// Simple Mandelbrot generator modified for Julia set calculations
+// Simple Mandelbrot generator modified for Julia set calculations - Eric F.
 // May 17, 2019
 // December 1, 2019 now with arguments
-// June 4, 2021 character set and dimensions for Qume Spring 11/55
+// June 4, 2021 character set and dimensions for Qume Sprint 11/55
 
 /* The Mandelbrot set iterates z_{n+1} = z_n^2 + c
    where c is complex and z_0 = 0.
