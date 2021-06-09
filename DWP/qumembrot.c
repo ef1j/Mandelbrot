@@ -1,4 +1,4 @@
-// Simple Mandelbrot generator
+// Simple Mandelbrot generator - Eric F.
 // May 17, 2019
 // December 1, 2019 now with arguments
 // June 4, 2021 character set and dimensions for Qume Sprint 11/55
