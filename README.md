@@ -1,4 +1,4 @@
-# Mandelbrot
+# ASCII Mandelbrot
 Repository of simple ASCII Mandelbrot Set generating codes.
 
 - DWP -- Mandelbrot and Julia set calculations for wide-format daisy wheel printers
