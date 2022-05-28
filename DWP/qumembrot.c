@@ -1,7 +1,8 @@
-// Simple Mandelbrot generator - Eric F.
+// Simple Mandelbrot generator
 // May 17, 2019
 // December 1, 2019 now with arguments
-// June 4, 2021 character set and dimensions for Qume Sprint 11/55
+// June 4, 2021 character set and dimensions for Qume Spring 11/55
+// May 28, 2022 have new (unbroken) wheels. Revising for full ascii
 
 #include <stdio.h>
 #include <string.h>
@@ -69,8 +70,9 @@ int main(int argc, char* argv[]){
       i=0;
       while (i <= iterations){
         if ((A*A+B*B)>4){
-	  //          printf("%c",(i % 63)+33); /* for ASCII-63 */
-	  printf("%c",(printstr[i % strlen(printstr)]));
+	  // printf("%c",(i % 63)+33); /* for ASCII-63 */
+	  // printf("%c",(printstr[i % strlen(printstr)])); /* custom char set */
+	  printf("%c",(i % 93)+33); /* for full ASCII */
           break; /* leave the iterations */
         }
         else{
